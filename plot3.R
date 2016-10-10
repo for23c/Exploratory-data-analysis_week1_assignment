@@ -7,5 +7,5 @@ plot(Time_Date, power2days$Sub_metering_1, type="l", xlab="", ylab="Energy sub m
 lines(Time_Date, power2days$Sub_metering_2, col="red")
 lines(Time_Date, power2days$Sub_metering_3, col="blue")
 legend("topright",lwd=1, legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black", "red", "blue"))
-dev.copy(png,"plot3.png", width=480, height=480)
+dev.copy(png,"plot3.png")
 dev.off()
